@@ -1,24 +1,23 @@
-import React from 'react'
-import Navbar from"../../components/navbar"
+import React from "react";
+import Navbar from "../../components/navbar";
+import Card from "../../components/Card";
+import WelcomMenu from "../../components/welcomMenu"
 
-
-
-
-
-
-export default  () => {
+export default () => {
   return (
     <div>
-        <Navbar/>
+      <Navbar />
+
+      <div>
+        <Card />
+      </div>
 
 
 
+      <div>
+<WelcomMenu/>
 
-
-
-
-
+      </div>
     </div>
-  )
-}
-
+  );
+};
