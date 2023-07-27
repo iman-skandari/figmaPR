@@ -1,0 +1,25 @@
+.welcome{
+    width: 1440px;
+    height: 300px;
+    background-color: #020c0e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.welcomeH h1{
+    color: white;
+   
+
+}
+.welcomeButton1{
+    border-radius: 8px;
+    background-color:#417F56 ;
+    color: white;
+    padding: .3rem;
+    width: 150px;
+    height: 35px;
+    font-size: larger;
+    cursor: pointer;
+}

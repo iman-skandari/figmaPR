@@ -3,19 +3,19 @@ import "./navbar.css";
 import logo from "../../assets/Logo.PNG";
 import vector from "../../assets/Vector.PNG";
 import arrow from "../../assets/flash.PNG";
-import search from"../../assets/search.PNG"
-import shopping from"../../assets/shop.PNG"
-import person from"../../assets/user.PNG"
+import search from "../../assets/search.PNG";
+import shopping from "../../assets/shop.PNG";
+import person from "../../assets/user.PNG";
 export default () => {
   return (
     <div className="navbarWrapper">
+      
       <div className="navbarRight">
         <img src={logo} alt="" />
         <img src={vector} alt="" />
       </div>
       <div className="navbarMidle">
         <div>
-         
           <a className="navbarMidleTag">
             <strong className="navbarMidleTag">صفحه اصلی</strong>
           </a>
@@ -39,20 +39,15 @@ export default () => {
         </div>
       </div>
       <div className="navbarLeft">
-          <div>
-            <img src={search} alt="" />
-          </div>
-          <div>
-        <img src={shopping} alt="" />
-          </div>
-          <div>
+        <div>
+          <img src={search} alt="" />
+        </div>
+        <div>
+          <img src={shopping} alt="" />
+        </div>
+        <div>
           <img src={person} alt="" />
-          </div>
-
-
-
-
-
+        </div>
       </div>
     </div>
   );
