@@ -1,12 +1,14 @@
 .welcome{
     width: 1440px;
-    height: 300px;
-    background-color: #020c0e;
+    height: 336px;
+    background-image: url(../../assets/backi.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 1.5rem;
+    margin: 1rem;
 }
 .welcomeH h1{
     color: white;

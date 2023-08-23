@@ -1,6 +1,13 @@
 import React from "react";
 import "./WelcomMenu.css";
 import { Carousel } from "antd";
+
+
+
+
+
+
+
 export default () => {
   return (
     <div className="welcome">
