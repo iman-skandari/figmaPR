@@ -17,10 +17,10 @@ export default  () => {
         
         <div className='cardTitleBox'>
            <img src={food} alt="" />
-         
+           <h2>غذای اصلی</h2>
         
         </div>
-        <div className=' cardTitleP'><p>غذای اصلی</p></div>
+        {/* <div className='cardTitleP'><p>غذای اصلی</p></div> */}
          
 
 
