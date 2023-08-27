@@ -1,6 +1,6 @@
 .welcome{
-    width: 1440px;
-    height: 336px;
+    width:100%;
+    height: 280px;
     background-image: url(../../assets/backi.jpg);
     display: flex;
     flex-direction: column;
@@ -9,6 +9,11 @@
     gap: 2rem;
     padding: 1.5rem;
     margin: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    
+    
 }
 .welcomeH h1{
     color: white;
@@ -25,3 +30,20 @@
     font-size: larger;
     cursor: pointer;
 }
+/* .mySwiper h1{color: white;
+min-width: 500px;
+
+} */
+
+
+/* .mySwiper1 button{
+    cursor: pointer;
+    background-color: #417F56;
+} */
+/* .mySwiper2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/png-transparent-green-leaf-frame-wood-background-green-leaves-frame-board.png);
+} */
